@@ -11,5 +11,5 @@ docker run --shm-size=$ALLOWED_SHARED_MEMORY \
   -v $REPORTS_DIR:/opt/robotframework/reports:Z \
   -v $TESTS_DIR:/opt/robotframework/tests:Z \
   --user $(id -u):$(id -g) \
-  ppodgorsek/robot-framework:latest
+  SabinGt/robot-framework:latest
  
