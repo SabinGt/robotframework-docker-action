@@ -11,5 +11,5 @@ docker run --shm-size=$ALLOWED_SHARED_MEMORY \
   -v $REPORTS_DIR:/opt/robotframework/reports:Z \
   -v $TESTS_DIR:/opt/robotframework/tests:Z \
   --user $(id -u):$(id -g) \
-  sabingautam07/robotframework-imagemagick-docker
+  sabingautam07/robotframework-imagemagick-docker:latest
  
